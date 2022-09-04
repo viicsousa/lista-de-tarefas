@@ -14,16 +14,17 @@ body {
 }
 
 .container {
-  border: 3px solid #008080;
+  border: 1px solid #f0f8ff;
   padding: 35px 39px;
   width: 35%;
+  
 }
 
 .new-task-container {
   background-color: #f0ffff;
   padding: 31px 21px;
   border-radius: 5px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 31px rgba(0, 0, 0, 0.1);
   display: flex;
 }
 
@@ -35,3 +36,16 @@ body {
   padding: 12px;
   font-weight: 500;
 }
+ .new-task-button {
+  flex: 1;
+  border-radius: 5px;
+  font-weight: 511;
+  height: 99%;
+  font-size: 1rem;
+  border: none;
+  background-color: #41b883;
+  color: #fff;
+  padding: 12px;
+  margin-left: 12px;
+  cursor: pointer;
+ }
